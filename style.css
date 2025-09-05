@@ -1,3 +1,4 @@
+/*Applies to everything*/
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+/*Applies to classes in hero*/
 .heading {
     display: flex;
     flex-direction: column;
@@ -29,22 +31,11 @@ body {
     border-radius: 64px;
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    gap: 16px;
-}
-
-a {
-    color: hsla(0, 0%, 100%, 0.8);
-    text-decoration: none;
-}
-
 .header-content {
     display: flex;
     align-items: center;
     gap: 64px;
-    margin: 64px 0 64px 0;
+    margin: 96px 0;
 }
 
 .header-description {
@@ -75,3 +66,81 @@ a {
     margin-top: 16px
 }
 
+/*Applies to classes in information*/
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(254, 15%, 90%);
+    padding-bottom: 176px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 48px 0;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.information-content {
+    display: flex;
+    gap: 64px;
+}
+
+.reference {
+    display: flex;
+    flex-flow: wrap;
+    height: 200px;
+    width: 200px;
+}
+
+.reference-image {
+    border-radius: 16px;
+    border: 5px solid hsla(39, 100%, 50%, 0.85);
+}
+
+.reference-material {
+    font-size: 18px;
+    margin-top: 8px;
+    text-align: center;
+    color: hsla(0, 0%, 0%, 0.8);
+}
+
+/*Applies to classes within the quote section*/
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 288px;
+    background-color: hsl(254, 30%, 80%);
+
+}
+
+.quote-content {
+    font-size: 36px;
+    font-weight: 300;
+    color: hsla(0, 0%, 0%, 0.8);
+}
+
+.quote-reference {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+    color: hsla(0, 0%, 0%, 0.85);
+}
+
+/*Applies to content within the call-to-action section*/
+
+
+
+/*Applies to types*/
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    color: hsla(0, 0%, 100%, 0.8);
+    text-decoration: none;
+}
