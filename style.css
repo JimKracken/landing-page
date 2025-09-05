@@ -130,6 +130,38 @@ body {
 }
 
 /*Applies to content within the call-to-action section*/
+.call-to-action {
+    padding: 80px 160px;
+    background-color: hsl(254, 15%, 90%);
+}
+
+.call-content {
+    background-color: hsla(39, 100%, 50%, 0.85);
+    padding: 48px 128px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.call-title {
+    color: hsla(0, 0%, 100%, 0.9);
+    font-size: 24px;
+}
+
+.call-explanation {
+    color: hsla(0, 0%, 100%, 0.8);
+    font-size: 18px;
+}
+
+.call-button {
+    color: hsla(0, 0%, 100%, 0.9);
+    font-size: 24px;
+    background-color: hsla(39, 100%, 50%, 0.85);
+    border: 3px solid hsla(0, 0%, 100%, 0.9);
+    border-radius: 8px;
+    width: 150px;
+    padding: 4px 16px;
+}
 
 
 
