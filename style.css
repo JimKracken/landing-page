@@ -163,7 +163,19 @@ body {
     padding: 4px 16px;
 }
 
+/*Applies to copyright section*/
+.copyright {
+    background-color: hsl(254, 81%, 19%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
 
+.copyright p{
+    color: hsla(0, 0%, 100%, 0.8);
+    font-size: 18px;
+}
 
 /*Applies to types*/
 ul {
