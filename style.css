@@ -5,18 +5,18 @@
 }
 
 body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 /*Applies to classes in hero*/
 .heading {
+    background-color: hsl(254, 81%, 19%);
+    color: hsla(0, 0%, 100%, 0.8);
     display: flex;
     flex-direction: column;
     padding: 16px 160px;
-    background-color: hsl(254, 81%, 19%);
-    color: hsla(0, 0%, 100%, 0.8);
 }
 
 .header {
@@ -45,41 +45,41 @@ body {
     justify-content: space-between;
 }
 
-.header-title {
+.header-description h1 {
+    color: hsla(0, 0%, 100%, 0.9);
     font-size: 48px;
     font-weight: 900;
-    color: hsla(0, 0%, 100%, 0.9);
 }
 
-.header-explanation {
+.header-description p {
     font-size: 18px;
 }
 
-.header-button {
+.header-description button {
     background-color: hsla(39, 100%, 50%, 0.85);
     color: hsla(0, 0%, 100%, 0.9);
     font-size: 24px;
-    padding: 8px 32px;
-    border-radius: 8px;
     width: 150px;
     border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
     margin-top: 16px
 }
 
 /*Applies to classes in information*/
 .information {
+    background-color: hsl(254, 15%, 90%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: hsl(254, 15%, 90%);
     padding-bottom: 176px;
 }
 
-.information-title {
+.information h2 {
+    color: rgba(0, 0, 0, 0.9);
     font-size: 36px;
     font-weight: 900;
     margin: 48px 0;
-    color: rgba(0, 0, 0, 0.9);
 }
 
 .information-content {
@@ -88,78 +88,77 @@ body {
 }
 
 .reference {
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-flow: wrap;
-    height: 200px;
-    width: 200px;
 }
 
-.reference-image {
-    border-radius: 16px;
+.information img {
     border: 5px solid hsla(39, 100%, 50%, 0.85);
+    border-radius: 16px;
 }
 
-.reference-material {
-    font-size: 18px;
-    margin-top: 8px;
-    text-align: center;
+.information p {
     color: hsla(0, 0%, 0%, 0.8);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8px;
 }
 
 /*Applies to classes within the quote section*/
 .quote{
+    background-color: hsl(254, 30%, 80%);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 96px 288px;
-    background-color: hsl(254, 30%, 80%);
-
 }
 
 .quote-content {
+    color: hsla(0, 0%, 0%, 0.8);
     font-size: 36px;
     font-weight: 300;
-    color: hsla(0, 0%, 0%, 0.8);
 }
 
 .quote-reference {
+    color: hsla(0, 0%, 0%, 0.85);
     font-size: 24px;
     font-weight: 700;
     align-self: flex-end;
-    color: hsla(0, 0%, 0%, 0.85);
 }
 
 /*Applies to content within the call-to-action section*/
 .call-to-action {
-    padding: 80px 160px;
     background-color: hsl(254, 15%, 90%);
+    padding: 80px 160px;
 }
 
 .call-content {
     background-color: hsla(39, 100%, 50%, 0.85);
-    padding: 48px 128px;
     display: flex;
     justify-content: space-between;
     border-radius: 4px;
+    padding: 48px 128px;
 }
 
-.call-title {
+.call-to-action h3 {
     color: hsla(0, 0%, 100%, 0.9);
     font-size: 24px;
 }
 
-.call-explanation {
+.call-to-action p {
     color: hsla(0, 0%, 100%, 0.8);
     font-size: 18px;
 }
 
-.call-button {
+.call-to-action button {
+    background-color: hsla(39, 100%, 50%, 0.85);
     color: hsla(0, 0%, 100%, 0.9);
     font-size: 24px;
-    background-color: hsla(39, 100%, 50%, 0.85);
+    width: 150px;
     border: 3px solid hsla(0, 0%, 100%, 0.9);
     border-radius: 8px;
-    width: 150px;
     padding: 4px 16px;
 }
 
@@ -179,8 +178,8 @@ body {
 
 /*Applies to types*/
 ul {
-    display: flex;
     list-style: none;
+    display: flex;
     gap: 16px;
 }
 
